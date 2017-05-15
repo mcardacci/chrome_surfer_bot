@@ -11,10 +11,14 @@ from random import randint
 import time
 import sys
 import requests
-import lxml.html
+import os
+# import lxml.html
+
+chromedriver = "C:/projects/python/chrome_surfer_bot/chromedriver.exe"
+os.environ["webdriver.chrome.driver"] = chromedriver
 
 # Needs to be global for now so functions can access it.
-browser=webdriver.Chrome()
+browser=webdriver.Chrome(chromedriver)
 
 # RANDOMLY CHOOSE WORD FROM 'wordlist.txt'
 def random_search_word():
