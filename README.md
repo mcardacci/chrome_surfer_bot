@@ -7,7 +7,6 @@ Simple bot that surfs the information superhighway.
 
 ## Dependencies?
 1. Selenium
-2. Selenium With Chrome Library
-3. lxml
+2. ChromeDriver (found here: https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 > NOTE: It currently runs in a Windows 7 environment, other OS's have not been tested yet.
